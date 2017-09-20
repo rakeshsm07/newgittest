@@ -4,6 +4,7 @@ git config --global user.name "Rocky"
 git config --global user.name "rocky@gmail.com"
 git config --global color.ui "auto" //color code the command on the terminal
 
+// changes 
 
 //retrieve all the configuration settings
 git config --list
