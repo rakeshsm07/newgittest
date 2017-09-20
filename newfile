@@ -1,0 +1,47 @@
+we need to do global settings 
+
+git config --global user.name "Rocky"
+git config --global user.name "rocky@gmail.com"
+git config --global color.ui "auto" //color code the command on the terminal
+
+
+//retrieve all the configuration settings
+git config --list
+
+//to edit configuration settings
+in windows c://Users/<username>/.gitconfig
+
+Create a GIT Project
+
+// we need to create a directory to store files 
+
+mkdir my_git _project
+cd my_git_project
+
+
+// initiat git to the directory have project files 
+git init
+
+// to track files in git
+git add file1 file2 file3
+
+// in order to tell git to track the current directory
+git add.
+
+// lets do the  first commit
+git commit -m "First Commit"  // m option specifies your adding message within the command
+
+// just type 
+git commit // text editor will open up and can give your own message
+
+// each time we commit .. we have a hash code generated automatically by git for each commit
+
+// to check changes in the tracked file 
+git diff // unless we have added new file and needs to be tracked
+
+//  we use again add in order to track changes in the currnt file , add add the item into the current file , commit seals the package
+
+//Commit history showing the commits we made so far
+git log 
+
+// Giving information about the commit
